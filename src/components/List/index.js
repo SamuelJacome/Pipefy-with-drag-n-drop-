@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { MdAdd } from 'react-icons/md'
+import { MdAdd } from 'react-icons/md';
+
+import Card from './../Card';
 import { Container } from './styles';
 
 export default function Board() {
@@ -12,6 +14,14 @@ export default function Board() {
             <MdAdd size={24} color='#FFF'/>
           </button>
       </header>
+      <ul>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+
+      </ul>
     </Container >
   );
 }
